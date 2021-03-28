@@ -163,3 +163,41 @@ Response
 		},...
 	]
 }
+
+Get Pagination
+creator.n1channel.org\/drama\/read_paging.php
+
+Response 
+{ record [
+{
+			
+"drama_id": "",
+			
+"drama_summary": ,
+			
+"drama_cover": ,
+			
+"drama_title": ,
+			
+"created": ,
+			
+"cat_id": ,
+			
+"release_date": ,
+			
+"status": 
+		
+},...
+],
+paging{
+"first" : "",
+"pages":{
+{
+"page": 2,
+"url": "https:\/\/creator.n1channel.org\/drama\/read_paging.php?page=2",
+"current_page": "no"
+},...
+},
+"last" : ""
+
+}
